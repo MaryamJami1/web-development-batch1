@@ -1,0 +1,152 @@
+* {
+
+    /* background-color: rgb(181, 131, 141); */
+    margin: 0;
+    padding: 0;
+}
+
+#link {
+
+    color: brown;
+}
+
+.parent {
+
+    color: rgb(198, 25, 83);
+}
+
+
+/* selectors */
+/* by element by id by class by unviversal */
+
+
+#para {
+    text-align: right;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+#hello {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+} */
+
+
+#bye {
+    display: inline;
+}
+
+
+
+
+
+
+
+
+#para1 {
+    color: blueviolet;
+    font-size: 30px;
+
+}
+
+#para2 {
+    color: aqua;
+    font-size: 10px;
+    line-height: 20px;
+
+
+}
+
+#para3 {
+    color: crimson;
+    font-size: 5px;
+
+
+}
+
+
+#outer {
+    font-size: 30px;
+    background-color: palevioletred;
+    padding: 40px;
+    /* padding-left: 600px; */
+    /* padding-right: 500px; */
+    padding: 50px 80px 0px 50px;
+
+}
+
+
+
+#inner {
+    font-size: 10px;
+    background-color: blueviolet;
+    height: 80px;
+    width: 80px;
+    border: 4px solid sienna;
+    border-radius: 50%;
+    /* display: none; */
+    visibility: hidden;
+
+}
+
+
+
+
+p {
+    display: inline;
+}
+
+
+a {
+    display: block;
+}
+
+
+
+
+
+#one {
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+
+#two {
+
+  background: 
+    linear-gradient(rgba(0,0,0,0.5)),
+    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Gr1wawpmD_CT8nJW69f_B5QCplw_Bh_arg&s');
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+
+}
+
+
+
+
+#parent{
+    background-color: blueviolet;
+    height: 150vh;    
+    width: 50vw;    
+    /* margin-left: 100%; */
+    font-size: 10px;
+
+}
+
+
+#child{
+    background-color: aqua;
+    height: 50%;  
+    width: 50%;    
+    /* margin-left: 200%;  */
+    font-size:2rem;        
+}
