@@ -1,0 +1,33 @@
+.parent {
+    height: 400px;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* flex-direction: column;
+   align-content: space-evenly; */
+
+
+}
+
+#child1 {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    
+
+}
+
+#child2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(43, 226, 183);
+
+}
+
+
+#child3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 189, 43);
+
+}

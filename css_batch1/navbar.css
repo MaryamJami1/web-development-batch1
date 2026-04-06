@@ -1,14 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.nav{
+
+.nav {
     background-color: rgba(43, 125, 226, 0.708);
     height: 80px;
 }
 
 
-#navchild1{
+#navchild1 {
     display: inline-block;
     margin-left: 20px;
     margin-top: 20px;
@@ -16,16 +17,16 @@
 
 
 
-#navchild2{
+#navchild2 {
     display: inline-block;
     margin-left: 60%;
 }
 
-a{
+a {
     margin-left: 20px;
 }
 
-#logo{
+#logo {
     height: 40px;
     width: 50px;
     background-color: blue;
@@ -33,4 +34,23 @@ a{
     background-image: url(Sir\ Danish.jpg);
     background-size: cover;
     border-radius: 50%;
+}
+
+
+
+.content {
+    display: inline-block;
+    padding: 20px;
+    width: 30%;
+
+}
+  
+
+.image {
+    display: inline-block;
+    margin-top: 20px;
+
+    width: 50%;
+    margin-left: 200px;
+
 }
