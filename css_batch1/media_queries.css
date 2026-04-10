@@ -1,0 +1,111 @@
+div {
+    background-color: rgb(213, 13, 63);
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    font-family: "Saira Stencil", sans-serif;
+    color: #dad0d0;
+    font-weight: 800;
+    font-style: italic;
+}
+
+div:hover {
+    cursor: grab;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/020/562/198/small/perspective-grid-background-retro-futuristic-design-vector.jpg);
+    background-size: cover;
+}
+
+
+@media(width:700px) {
+    div {
+        background-color: red;
+        /* height: 100px;
+        width: 100px; */
+        border-radius: 50%;
+    }
+}
+
+
+@media(max-width:450px) {
+    div {
+        background-color: green;
+        height: 50px;
+        width: 50px;
+        font-size: 10px;
+
+    }
+
+}
+
+@media(min-width:451px) and (max-width:699px) {
+
+    div {
+        background-color: rgb(200, 200, 6);
+        height: 450px;
+        width: 450px;
+    }
+
+}
+
+
+@media(min-width:701px) and (max-width:899px) {
+
+    div {
+        background-color: rgb(200, 200, 6);
+        height: 250px;
+        width: 250px;
+    }
+
+}
+
+
+
+@media(min-width:900px) {
+    div {
+        background-color: rgb(103, 5, 98);
+        height: 400px;
+        width: 800px;
+
+    }
+}
+
+
+button {
+    background-color: chocolate;
+    padding: 8px 40px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+    box-shadow: 0 10px 10px #9e3e3e;
+}
+
+/* pseudo class */
+
+button:hover {
+    background-color: rgb(34, 34, 200);
+    font-size: 40px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgb(34, 34, 200);
+}
+
+button:active {
+    background-color: green;
+    cursor: progress;
+
+}
+
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(213, 13, 63);
+   font-style: oblique;
+
+}
+
+a:hover {
+    color: rgb(19, 173, 19);
+    text-decoration: underline;
+
+
+}
