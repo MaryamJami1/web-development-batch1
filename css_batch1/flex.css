@@ -1,0 +1,35 @@
+.parent {
+    height: 400px;
+    /* width: 400px; */
+    background-color: bisque;
+    display: flex;
+    /* flex-direction: column; */
+   /* flex-wrap: wrap; */
+/* align-content: flex-start; */
+}
+
+#child1 {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    /* flex-shrink:2 ; */
+    
+
+}
+
+#child2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(43, 226, 183);
+    /* align-self: flex-end; */
+
+}
+
+
+#child3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 189, 43);
+    flex-grow: 2;
+
+}
