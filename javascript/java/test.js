@@ -19,27 +19,27 @@
 
 
 // declare
-var name;
-console.log(name);
+// var name;
+// console.log(name);
 
 
 // initialize
-var name = "mazhar"; 
-console.log(name);
+// var name = "mazhar";
+// console.log(name);
 
 
 // reinitialize
 var Age = 20;
 var age = 30;
 
- 
+
 
 // update
 
-name = "ali"
-console.log(name);
+// name = "ali"
+// console.log(name);
 
-console.log(Age);
+// console.log(Age);
 
 
 
@@ -59,7 +59,10 @@ const firstName = "Muhammad Ali"
 const last_name = "Jinnah"
 
 // last_name = "Johar"
-console.log(firstName,last_name);
+console.log(firstName, last_name);
+
+
+
 
 
 
@@ -77,7 +80,11 @@ console.log(firstName,last_name);
 
 
 // primitive data types
-// immutable
+// immutable   it cant change
+
+
+// non primitive
+// mutable it can chnage
 
 // string (text)
 /*let name1 = "Maryam"
@@ -159,6 +166,56 @@ console.log(b);
 
 
 
+// string
+
+// let name = "Maryam"
+// let Name = 'Maham'
+
+// console.log(name, Name);
+
+
+
+
+
+// string conacatenation
+
+
+// let fisrtName = "Muhammad"
+// let lastName = "Bilal"
+// let fullName = fisrtName + lastName
+// MuhammadBilal
+// let fullName = fisrtName +" "+lastName    
+// Muhammad Bilal
+
+
+
+// console.log(fisrtName);
+// console.log(lastName);
+// console.log(fullName);
+// console.log(typeof(fullName));
+
+
+
+let age1 = 20; 
+//  +   additon
+let age2="20";  
+// +   concatenation
+let set = age1 + age2   
+
+console.log(set);
+console.log(typeof(set));
+
+
+
+
+
+// let age3 = 40;
+// let str = " ";
+// let age4 = 20;
+
+// console.log(age3 + str + age4);
+// 40 20
+// 60 
 
 
 
@@ -169,12 +226,44 @@ console.log(b);
 
 
 
+// let num1 = 2;
+// let num2 = 2;
+// let number  = num1 + num2;
+
+// console.log(number) 
+          //  2  +  2 = 4   
+        //   "2" = "2"   = 4    22    2 2
+
+// console.log( typeof(number));
+
+
+
+       
 
 
 
 
 
 
+
+
+
+// string length
+
+let city = "Karachi is a city of lights";
+let totalLetters = city.length -1
+
+                       
+console.log(totalLetters);
+
+
+
+
+
+let Word = "Islamabad is the capital city"
+             
+
+console.log(Word[2]);
 
 
 
