@@ -291,3 +291,125 @@ console.log(Word[2]);
 
 
 
+
+
+
+
+
+
+
+
+
+
+let text = "hello"
+let newText = text.toUpperCase();
+
+console.log(text , newText);
+
+
+let text2 = "HELLO"
+text = text2.toLowerCase();
+console.log(text2);
+
+// template literals
+
+let word1 = "Lorem"
+let word2 = "Ipsum"
+let word3 = "Velocity"
+let age_ = 20;
+
+console.log(word1 + " " + word2 + " " + word3);
+
+console.log(`${word1} ${word2} ${word3}`);
+
+console.log("my age is " + age);
+
+
+
+
+let _age  = 40;
+ console.log(`My age is ${_age}`);
+ 
+
+
+
+
+//  arithemetic operators
+
+ let num1 = 5;
+ let num2 = 3;
+
+console.log(num1 + num2);    //addition
+console.log(num1 - num2);   // subtraction
+console.log(num1 * num2);    //multiplication
+console.log(num1 / num2);   //division
+console.log(num1 % num2);    //modulus
+
+ 
+
+
+// increament operator ++
+
+let y = 20;    
+// y = y + 1;  
+y++
+
+console.log(y);
+
+
+
+let x = 20;  
+// x = x - 1
+x--;
+console.log(x);
+   
+
+
+
+
+
+// post increament
+let d = 5;
+console.log(d++);       
+console.log(d);          
+
+
+// post dreament
+let f = 5;
+console.log(f--);       
+console.log(f);  
+
+
+
+
+
+
+// pre increament
+let e = 5;
+console.log(++e);  
+console.log(e);    
+
+
+// pre dreament
+let f = 5;
+console.log(--f);       
+console.log(f);  
+
+
+
+
+
+let m = 2;
+let n = 5;
+let o = 3;
+
+
+// ++na = 2 - o-- + ++n + --n + ++o - m
+
+
+var ; //1
+var b = 1; // 0 , 1 , 0
+var result = --a - --b + ++b + b--;
+//            1  -  0  +  1  + 1
+//               1     +    2
+//                     3
