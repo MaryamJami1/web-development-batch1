@@ -375,9 +375,9 @@ console.log(d);
 
 
 // post dreament
-let f = 5;
-console.log(f--);       
-console.log(f);  
+// let f = 5;
+// console.log(f--);       
+// console.log(f);  
 
 
 
@@ -385,23 +385,19 @@ console.log(f);
 
 
 // pre increament
-let e = 5;
-console.log(++e);  
-console.log(e);    
+// let e = 5;
+// console.log(++e);  
+// console.log(e);    
 
 
 // pre dreament
-let f = 5;
+/*let f = 5;
 console.log(--f);       
 console.log(f);  
 
 
 
 
-
-let m = 2;
-let n = 5;
-let o = 3;
 
 
 // ++na = 2 - o-- + ++n + --n + ++o - m
@@ -413,3 +409,6 @@ var result = --a - --b + ++b + b--;
 //            1  -  0  +  1  + 1
 //               1     +    2
 //                     3
+
+
+*/
