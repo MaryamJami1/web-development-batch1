@@ -88,3 +88,60 @@ if("biryani" == "haleem"){
 }
 
 console.log("conditions khtm");
+
+
+// logical operator
+
+// and operator &&
+
+           //true                 true
+if("idCard" === "idCard" && "copy" === "copy"){
+console.log("you can enter in the class");
+}else{
+console.log("you can not enter in the class");
+}
+
+
+
+
+
+// or operator ||
+
+
+       //!true false                      false
+if(!"idCard" === "idCard" || "copy" === "paper"){
+console.log("you can enter in the class");
+}else{
+console.log("you can not enter in the class");
+}
+
+
+
+// not operator !
+if(true == !true){
+ console.log("true");
+}else{
+    console.log("false");
+}
+
+
+
+
+
+
+
+
+
+// condition practice
+
+let mode = "dark mode";
+let color = null;    
+console.log(color);
+
+
+if(mode === "dark mode"){
+    color = "black";
+    console.log(color);
+}else{
+    console.log("false");
+}
