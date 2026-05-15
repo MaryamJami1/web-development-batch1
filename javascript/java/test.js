@@ -251,6 +251,8 @@ console.log(typeof(set));
 // string length
 
 let city = "Karachi is a city of lights";
+// let city = ["Karachi" ,  "is" , "a" , "city " , "of" ,  "lights"];
+
 let totalLetters = city.length -1
 
                        
