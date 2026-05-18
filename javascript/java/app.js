@@ -194,7 +194,7 @@ let studentList2 = ["ali" , 123, true , null, ,];
 studentList2[5] = "hello"
 console.log(studentList2);
 console.log(studentList1.length);
-console.log(studentList2[5]); //undefined
+console.log(studentList2[5]); 
 
 
 
@@ -218,4 +218,108 @@ newArr[1] = "two";
 
 console.log(newArr);
 console.log(arr);
+
+
+
+
+// array methods
+// push   add new in elemet on last index 
+
+let studentList3 = ["ali" , 123, true , null];
+console.log(studentList3);
+
+
+// studentList3[4] = "hello";
+studentList3.push("hello");
+console.log(studentList3);
+
+
+
+// pop  delete last index element of the array
+
+let studentList4 = ["ali" , 123, true , 1234];
+studentList4.pop();
+console.log(studentList4); 
+
+
+
+// shift  delete fisrt element of the array index 0
+let studentList5 = ["ali" , 123, true , null];
+studentList5.shift();
+console.log(studentList5); 
+
+
+// unshift  add new element on the array first index
+let studentList6 = ["ali" , 123, true , null];
+studentList6.unshift("new add");
+console.log(studentList6); 
+
+
+
+// indexof get index by element
+
+let fruits = ["banana" , "oranage", "grapes" , "guava" , "strawberry" , 123 , "mango" , "apple"];
+console.log(fruits);
+
+console.log(fruits.indexOf(123));
+
+
+// includes check items exist or not
+
+let fruits1 = ["banana" , "oranage", "grapes" , "guava" , "strawberry" , 123 , "mango" , "apple"];
+console.log(fruits1.includes(123));
+
+
+
+// reverse  array change into opposite side
+
+// let numbers = [1 , 2 ,3 , 4 ,5];
+// let fruits2 = ["banana" , "orange", "grapes" , "guava" , "strawberry" , 123 , "mango" , "apple"];
+// fruits2.reverse();
+// console.log(fruits2);
+
+// numbers.reverse();
+// console.log(numbers);
+
+
+// join   array change into string
+let num = [1 , 2 ,"ali" , 4 ,5, true ,7, 8];
+console.log(num);
+
+
+console.log(num.join(" "));
+
+
+// slice 
+
+let names = ["hamza" , "ali" , "bilal" , "fatima", "nimra" , "mehek" , "noor" , "sara" ];
+
+// delete
+let namesSlice = names.slice(3 , 6);
+console.log(names);
+
+console.log(namesSlice);
+
+
+
+// splice  changes into orignal array it can delete update and add
+
+let studentNames = ["hamza" , "ali" , "bilal" , "fatima", "nimra" , "mehek" , "noor" , "sara" ];
+
+// add
+studentNames.splice(2 , 0 , "saad" )
+console.log(studentNames);
+
+
+
+
+
+// splice  changes into orignal array it can delete update and add
+let student = ["hamza" , "ali" , "bilal" , "fatima", "nimra" , "mehek" , "noor" , "sara" ];
+// replace
+console.log(student.indexOf("mehek"));
+student.splice(5 , 1 , "Sumair");
+console.log(student);
+
+
 
