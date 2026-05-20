@@ -35,7 +35,7 @@
 // comparison operators
 // ==   ===
 
-
+/*
 
 
 //just check values
@@ -320,6 +320,150 @@ let student = ["hamza" , "ali" , "bilal" , "fatima", "nimra" , "mehek" , "noor" 
 console.log(student.indexOf("mehek"));
 student.splice(5 , 1 , "Sumair");
 console.log(student);
+*/
 
 
 
+
+
+// Loop
+// print hello 10 times
+
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+// console.log("hello");
+
+
+
+// for(initialization ; condition ; updation){
+
+// }
+
+
+// for(let i = 0;  i < 10 ; i++){
+// console.log(i);   
+// };
+
+
+// first turn
+// i  = 0 ;  initialize
+// 0 < 10 ; condition check      true false
+// block of code{
+//     // hello
+// }
+
+
+// second turn
+// updation ++ post increament
+// i = 0 + 1   = 1
+// condition check 
+// 1 < 10 ; true
+// block of code{
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let i = 1;  i < 10 ;
+// initialization ; condition
+// fisrt turn i = 0   1 < 10{
+//  console.log("hello");
+//  }
+
+
+// condition ; updation
+// second turn so on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if(!"idCard" === "idCard" || "copy" === "paper"){
+// console.log("you can enter in the class");
+// }else{
+// console.log("you can not enter in the class");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// print table of 2
+// console.log("2 x 1 = 2");
+// console.log("2 x 2 = 4");
+// console.log("2 x 3 = 6");
+
+
+// loop
+
+// let tableNum = prompt("enter your number for printing table");
+
+// for(let i = 1; i <= 10; i++){
+// document.write(`${tableNum} x ${i} =  ${tableNum * i} <br>`);
+// }; 
+
+
+
+
+//  1 to 20 
+// even condition
+
+for(let i = 1; i <= 20; i++ ){
+    if(i % 2 == 0){
+        console.log(`this is even number ${i}`);
+    }else{
+        console.log(`this is odd number ${i}`);
+    }
+};
+
+
+
+let arr = ["a", "b", "c" , "d", "e" , "f" ,"g" ,"h" ,"a", "b", "c" , "d", "e" , "f" ,"g" ,"h"];
+// arr[0]
+// arr[1]
+// arr[2]
+
+for(let i = 0 ; i < arr.length; i++){
+console.log(arr[i]);
+}
