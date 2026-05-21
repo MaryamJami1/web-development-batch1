@@ -1,10 +1,10 @@
 // conditions
 // if or else
-  // boolean
+// boolean
 
 
 
-      //true
+//true
 
 
 
@@ -449,21 +449,58 @@ console.log(student);
 //  1 to 20 
 // even condition
 
-for(let i = 1; i <= 20; i++ ){
-    if(i % 2 == 0){
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 == 0) {
         console.log(`this is even number ${i}`);
-    }else{
+    } else {
         console.log(`this is odd number ${i}`);
     }
 };
 
 
 
-let arr = ["a", "b", "c" , "d", "e" , "f" ,"g" ,"h" ,"a", "b", "c" , "d", "e" , "f" ,"g" ,"h"];
+let arr = ["a", "b", "c", "d", "e", "f", "g", "h", "a", "b", "c", "d", "e", "f", "g", "h"];
 // arr[0]
 // arr[1]
 // arr[2]
 
-for(let i = 0 ; i < arr.length; i++){
-console.log(arr[i]);
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
 }
+
+
+
+
+// array iteration
+// let cars = ["fortuner", "BMW", "Audi", "Civic", 1, 2, 3, 4, 5, "hello", "hi"];
+
+// for (let i = cars.length - 1; i >= 0; i--) {
+//     document.write(`<br>${cars[i]} <br>`);
+// };
+
+
+
+// nested array
+
+// let products = ["mobile" , "shirts" , "lipstick" , "shoes"]
+
+let products =
+    [
+        ["mobile", "laptop"],
+        ["shirt", "jeans"],
+        ["lipstick", "blush on"],
+        ["shoes", "Heels"]
+    ]
+
+    // main array 4 elemenst
+
+    console.log(products);
+    
+
+//    calling main array element
+    console.log(products[2]);
+     // calling nested array by index
+    console.log(products[2][1]);
+    
+    
+  
